@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Patients</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; }
+    .container { max-width: 900px; margin: 0 auto; }
+    .topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+    .nav a { margin-right: 10px; }
+    .btn { padding: 8px 12px; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; }
+    .btn:hover { background: #f7f7f7; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    th, td { padding: 10px; border-bottom: 1px solid #eee; text-align: left; }
+    th { background: #fafafa; }
+    .actions a { margin-right: 10px; }
+    .danger { color: #b00020; }
+    .muted { color: #666; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <h1 style="margin:0;">Patients</h1>
+      <div class="nav">
+        <a class="btn" href="/patients/add">Add Patient</a>
+        <a class="btn" href="/">Dashboard</a>
+      </div>
+    </div>
+
+    {% if patients|length == 0 %}
+      <p class="muted">No patients found.</p>
+    {% else %}
+      <table>
+        <thead>
+          <tr>
+            <th style="width:70px;">ID</th>
+            <th>Name</th>
+            <th style="width:80px;">Age</th>
+            <th>Phone</th>
+            <th style="width:160px;">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for p in patients %}
+          <tr>
+            <td>{{ p.id }}</td>
+            <td>{{ p.name }}</td>
+            <td>{{ p.age }}</td>
+            <td>{{ p.phone }}</td>
+            <td class="actions">
+              <a href="/patients/{{ p.id }}/edit">Edit</a>
+              |
+              <a class="danger" href="/del_patient/{{ p.id }}"
+                 onclick="return confirm('Delete this patient?');">
+                Delete
+              </a>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% endif %}
+  </div>
+</body>
+</html>

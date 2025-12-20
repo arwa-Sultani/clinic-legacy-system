@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Appointments</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; }
+    .container { max-width: 900px; margin: 0 auto; }
+    .topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+    .nav a { margin-right: 10px; }
+    .btn { padding: 8px 12px; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; }
+    .btn:hover { background: #f7f7f7; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    th, td { padding: 10px; border-bottom: 1px solid #eee; text-align: left; }
+    th { background: #fafafa; }
+    .muted { color: #666; font-size: 14px; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="topbar">
+    <h1 style="margin:0;">Appointments</h1>
+    <div class="nav">
+      <a class="btn" href="/appointments/create">Create Appointment</a>
+      <a class="btn" href="/">Dashboard</a>
+    </div>
+  </div>
+
+  {% if appointments|length == 0 %}
+    <p class="muted">No appointments found.</p>
+  {% else %}
+    <table>
+      <thead>
+        <tr>
+          <th style="width:70px;">ID</th>
+          <th>Patient</th>
+          <th style="width:90px;">Patient ID</th>
+          <th style="width:140px;">Date</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for a in appointments %}
+        <tr>
+          <td>{{ a.id }}</td>
+          <td>{{ a.patient.name }}</td>
+          <td>{{ a.patient.id }}</td>
+          <td>{{ a.date }}</td>
+          <td>{{ a.description }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
+</div>
+
+</body>
+</html>
