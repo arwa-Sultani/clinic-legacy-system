@@ -158,3 +158,15 @@ _____________________________________________________________________
 - Implemented strict appointment date validation and prevented past dates.
 - Made appointment description mandatory.
 - Improved UI consistency across all templates.
+
+
+<!-- 
+
+# Refactor Log
+- Date:
+- Change:
+- Why:
+- Files:
+- Metrics (before/after if relevant):
+- Tests run:
+- Behavior changes: -->
