@@ -6,7 +6,7 @@ A small Flask web app for managing patients and appointments. This repo demonstr
 ## Setup
 ```bash
 python3 -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+source  venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -37,3 +37,8 @@ pytest -q
 ## Notes
 - Data is in-memory by default. Restarting the app clears it.
 - Replace placeholder validation/fields with your actual model needs.
+
+
+## Data Flow
+
+Request path: HTTP request → route (patients/appointments) → service (add list/update/delete) → repository (actual storage) → response (JSON or HTML via templates).

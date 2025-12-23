@@ -59,7 +59,7 @@ We count *1 EQ*.
 - EIF: 0 (no external files or systems)
 
 Given the small scope and low complexity, we estimate the total Function Points as:
-<!-- اكتبي المسالة -->
+
 > *Estimated FP ≈ 22 FP* (around 20–25 FP).
 
 This number is approximate and only used for comparison and COCOMO input.

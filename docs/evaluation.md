@@ -20,7 +20,7 @@ The LOC was calculated *after refactoring and evolution* by counting all Python 
 | routes/                | 95          |
 | utils/validation.py    | 35          |
 | tests/                 | 70          |
-| *Total LOC (After)*  | *440*     |
+| *Total LOC (After)*    | *440*       |
 
 ### Comparison
 

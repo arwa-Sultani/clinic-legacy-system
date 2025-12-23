@@ -46,12 +46,12 @@ You will work in teams of **3** to maintain, refactor, and evolve a small legacy
 
 ---
 ## Suggested tasks (pick at least 4)
-- Remove duplicated helpers and centralize patient functions.
-- Replace global state with a simple repository class or module.
-- Add input validation to forms and show error messages.
-- Convert appointment storage to reference patient_id (reduce coupling).
-- Add unit tests for 5–8 functions using pytest (extra credit).
-- Add logging and a basic README for developers.
+- Remove duplicated helpers and centralize patient functions."done"
+- Replace global state with a simple repository class or module."done"
+- Add input validation to forms and show error messages."done"
+- Convert appointment storage to reference patient_id (reduce coupling)."done"
+- Add unit tests for 5–8 functions using pytest (extra credit)."done"
+- Add logging and a basic README for developers."done"
 
 ---
 ## Grading rubric
