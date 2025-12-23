@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
-Visit: http://127.0.0.1:5000
+Visit: http://127.0.0.1:5050
 
 ## Run tests
 ```bash
@@ -32,7 +32,7 @@ pytest -q
 - `templates/`, `static/` — UI assets
 - `tests/` — pytest suites
 - `docs/` — assignment deliverables (analysis, metrics, plan, evaluation)
-- `refactor_log.md` — per-change notes
+
 
 ## Notes
 - Data is in-memory by default. Restarting the app clears it.
