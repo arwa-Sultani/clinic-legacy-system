@@ -1,0 +1,46 @@
+2025-12-24 09:52:46 INFO [app] POST /patients/ from 127.0.0.1
+2025-12-24 09:52:46 INFO [app] POST /patients/ -> 201 (3.3 ms)
+2025-12-24 09:52:46 INFO [app] POST /appointments/ from 127.0.0.1
+2025-12-24 09:52:46 INFO [app] POST /appointments/ -> 201 (0.5 ms)
+2025-12-24 09:52:46 INFO [app] GET /appointments/ from 127.0.0.1
+2025-12-24 09:52:46 INFO [app] GET /appointments/ -> 200 (0.3 ms)
+2025-12-24 09:52:47 INFO [app] POST /patients/ from 127.0.0.1
+2025-12-24 09:52:47 INFO [app] POST /patients/ -> 201 (0.7 ms)
+2025-12-24 09:52:47 INFO [app] GET /patients/ from 127.0.0.1
+2025-12-24 09:52:47 INFO [app] GET /patients/ -> 200 (0.3 ms)
+2025-12-24 09:54:40 INFO [app] GET / from 127.0.0.1
+2025-12-24 09:54:40 INFO [app] GET / -> 200 (12.7 ms)
+2025-12-24 09:54:43 INFO [app] GET /patients/ from 127.0.0.1
+2025-12-24 09:54:43 INFO [app] GET /patients/ -> 200 (8.4 ms)
+2025-12-24 09:54:45 INFO [app] GET /patients/add from 127.0.0.1
+2025-12-24 09:54:45 INFO [app] GET /patients/add -> 200 (5.5 ms)
+2025-12-24 09:54:49 INFO [app] POST /patients/add from 127.0.0.1
+2025-12-24 09:54:49 INFO [app] POST /patients/add -> 302 (7.2 ms)
+2025-12-24 09:54:49 INFO [app] GET /patients/ from 127.0.0.1
+2025-12-24 09:54:49 INFO [app] GET /patients/ -> 200 (2.7 ms)
+2025-12-24 09:54:50 INFO [app] GET /patients/add from 127.0.0.1
+2025-12-24 09:54:50 INFO [app] GET /patients/add -> 200 (2.6 ms)
+2025-12-24 09:54:53 INFO [app] POST /patients/add from 127.0.0.1
+2025-12-24 09:54:53 INFO [app] POST /patients/add -> 400 (4.1 ms)
+2025-12-24 09:54:55 INFO [app] GET /patients/ from 127.0.0.1
+2025-12-24 09:54:55 INFO [app] GET /patients/ -> 200 (2.5 ms)
+2025-12-24 09:54:57 INFO [app] GET / from 127.0.0.1
+2025-12-24 09:54:57 INFO [app] GET / -> 200 (2.0 ms)
+2025-12-24 09:57:04 INFO [app] POST /patients/ from 127.0.0.1
+2025-12-24 09:57:04 INFO [app] POST /patients/ -> 201 (3.9 ms)
+2025-12-24 09:57:04 INFO [app] POST /appointments/ from 127.0.0.1
+2025-12-24 09:57:04 INFO [app] POST /appointments/ -> 201 (0.3 ms)
+2025-12-24 09:57:04 INFO [app] GET /appointments/ from 127.0.0.1
+2025-12-24 09:57:04 INFO [app] GET /appointments/ -> 200 (0.1 ms)
+2025-12-24 09:57:04 INFO [app] POST /patients/ from 127.0.0.1
+2025-12-24 09:57:04 INFO [app] POST /patients/ -> 201 (0.3 ms)
+2025-12-24 09:57:04 INFO [app] GET /patients/ from 127.0.0.1
+2025-12-24 09:57:04 INFO [app] GET /patients/ -> 200 (0.1 ms)
+2025-12-24 09:57:49 INFO [app] GET / from 127.0.0.1
+2025-12-24 09:57:49 INFO [app] GET / -> 302 (1.5 ms)
+2025-12-24 09:57:49 INFO [app] GET /auth/login from 127.0.0.1
+2025-12-24 09:57:49 INFO [app] GET /auth/login -> 200 (57.8 ms)
+2025-12-24 09:59:14 INFO [app] POST /auth/login from 127.0.0.1
+2025-12-24 09:59:14 INFO [app] POST /auth/login -> 302 (4.9 ms)
+2025-12-24 09:59:14 INFO [app] GET / from 127.0.0.1
+2025-12-24 09:59:14 INFO [app] GET / -> 200 (15.8 ms)

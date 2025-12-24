@@ -24,8 +24,8 @@ The LOC was calculated *after refactoring and evolution* by counting all Python 
 
 ### Comparison
 
-| Version | LOC |
-|--------|-----|
+| Version            | LOC |
+|--------            |-----|
 | Before refactoring | ~275 |
 | After refactoring  | ~440 |
 
