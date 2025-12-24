@@ -7,14 +7,8 @@ We reuse the LOC values from the initial analysis as a simple size metric:
 
 | File                              | LOC (approx.) |
 |---------------------------------- |---------------|
-| app.py                            | 150           |
-| templates/index.html              | 20            |
-| templates/patients.html           | 30            |
-| templates/patient_add.html        | 15            |
-| templates/patient_edit.html       | 15            |
-| templates/appointments.html       | 25            |
-| templates/appointment_create.html | 20            |
-| *Total*                           | *275*         |
+| app.py                            | 128           |
+| *Total*                           | *128*         |
 
 LOC is only used as a rough indicator of project size and to compare before/after refactoring.
 
